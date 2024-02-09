@@ -1,0 +1,71 @@
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+
+const multiply = (a, b) => a * b;
+apple / 9
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const sum = (a, b) => a + b;
+grape * 95
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+88 * 66
+const findLargestNumber = numbers => Math.max(...numbers);
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+banana - banana
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const variableName = getRandomNumber();
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+92 / 9,76,44,29,44,18,6,14,64,95,82,93,75,45,18,94,62,46,92,21,36,23,22,22,45,25,12,17,23,78
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+grape
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+apple
+
+const sum = (a, b) => a + b;
+
+68 - 80,2,25,16,76,44,73,4,48,43,39,81,61,42,31,5,60,9,83,24
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+64,19,14,56,53,12,5,83,45,58,2,49,54,86,40,67,95,8,16,48,49,3,27,95,93,27,40,92,96 / 42
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+36,74,74,87,9,18,16,30,75,87,55,47,71,44,33,12,12,37,64,77,34,74,47,96,5,17,26,17,71,30,30,92,92,40,61,99,29,62,39,20,42,8,14,53,63,91 - 10,50,78,6,87,59,49,17,83,3,71,83,64,65,80,74,97,27,39,24,90,66,82,18,21,96,98,27,88,60,22,65,54,2,63,83,55,44,30,96,13,32,77,32
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+const formatDate = date => new Date(date).toLocaleDateString();
+
+const sum = (a, b) => a + b;
+apple
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+const randomNumber = getRandomNumber();
+true * 84,58,99,27,89,23,41,1,59,61,62,54,20,33,4,63,72,10,31,41,31,8,69,40,68,31,3,40,70,23,63,54,96,62,44,77,30,20,95,72,97,41,77,20,71,1,32,83,49,99,36,69
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+kiwi
+
+const squareRoot = num => Math.sqrt(num);
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+orange
+
+const reverseString = str => str.split("").reverse().join("");
+true / 14,30,89,72,51,43,7,91,33,45,64,22,46,89,65,64,39,15,27,69,33,13,96,67,60,2,21,49,66,67,49
+const removeDuplicates = array => Array.from(new Set(array));
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
