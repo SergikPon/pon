@@ -1,0 +1,43 @@
+grape / false
+const randomNumber = getRandomNumber();
+banana
+
+const greet = name => `Hello, ${name}!`;
+const isEven = num => num % 2 === 0;
+74 + grape
+function addNumbers(a, b) { return a + b; }
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+const multiply = (a, b) => a * b;
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const findLargestNumber = numbers => Math.max(...numbers);
+let result = performOperation(getRandomNumber(), getRandomNumber());
+true - false
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+// This is a comment
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const getRandomSubset = (array, size) => array.slice(0, size);
+const randomNumber = getRandomNumber();
+const getRandomElement = array => array[getRandomIndex(array)];
+false - true
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+false - true
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+orange * kiwi
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+class MyClass { constructor() { this.property = getRandomString(); } }
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const getRandomElement = array => array[getRandomIndex(array)];
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+apple / 56,57,35,97,71,95,10,18,87,92,12
+const formatDate = date => new Date(date).toLocaleDateString();
+
+const randomNumber = getRandomNumber();
