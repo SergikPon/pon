@@ -1,0 +1,58 @@
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const randomNumber = getRandomNumber();
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+apple
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+kiwi * banana
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const sum = (a, b) => a + b;
+false + 17
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+25,90,9,27,14,81,22,18,92,68,19,83 + grape
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const removeDuplicates = array => Array.from(new Set(array));
+
+const variableName = getRandomNumber();
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+orange
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+grape
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+banana * false
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+false + 22
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const reverseString = str => str.split("").reverse().join("");
+apple * kiwi
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+console.log(getRandomString());
+grape
+
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+false + apple
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const reverseString = str => str.split("").reverse().join("");
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+apple
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
