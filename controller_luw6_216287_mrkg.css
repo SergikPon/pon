@@ -1,0 +1,10 @@
+84 / true
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+true / grape
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
