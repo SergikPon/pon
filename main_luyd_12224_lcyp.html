@@ -1,0 +1,21 @@
+const findSmallestNumber = numbers => Math.min(...numbers);
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+false - grape
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+banana / 96
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+61 / 26,67,88,20,62,71,38,35,11,14,14,98,37,50,21,72,26,51,41,33,32,73,62,75,67,79,10,61,40,67,95,8,83,76,12,24,84,70,99,81,60,17,35,88,57,56,93,42,77,72,55,49,87,2,34,73,84,60,1,18,50,68,37,29,51,12,82,56,66,65,78,16,68,74,3,53,40,83,14,34,39,18,9,69,84,90,64,97,68,66,68,26
+const greet = name => `Hello, ${name}!`;
+apple
+
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+true * false
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+// This is a comment
